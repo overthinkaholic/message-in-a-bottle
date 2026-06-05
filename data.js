@@ -10,8 +10,8 @@ const TEXT_DATA = [
     id: 1001,
     category: "literature",
     textKo: "겁먹지 마시오",
-    textEn: "DON'T PANIC"
-    tags: ["SF", "영국"],
+    textEn: "DON'T PANIC",
+    tags: ["SF", "영국 문학"],
     meta: {
       title: "은하수를 여행하는 히치하이커를 위한 안내서",
       author: "더글라스 애덤스",
@@ -23,7 +23,7 @@ const TEXT_DATA = [
     category: "literature",
     textKo: "안녕, 그리고 물고기는 고마웠어요.",
     textEn: "So long, and thanks for all the fish.",
-    tags: ["SF", "영국"],
+    tags: ["SF", "영국 문학"],
     meta: {
       title: "은하수를 여행하는 히치하이커를 위한 안내서",
       author: "더글라스 애덤스",
@@ -35,7 +35,7 @@ const TEXT_DATA = [
     category: "literature",
     textKo: "그냥 지금 포기하고 미쳐버리면 시간이 훨씬 절약되지 않을까?",
     textEn: "Would it save you a lot of time if I just gave up and went mad now?",
-    tags: ["SF", "영국"],
+    tags: ["SF", "영국 문학"],
     meta: {
       title: "은하수를 여행하는 히치하이커를 위한 안내서",
       author: "더글라스 애덤스",
@@ -46,7 +46,7 @@ const TEXT_DATA = [
     id: 1004,
     category: "literature",
     textKo: "\"그럼 또 어때!\" 나는 혼자 이렇게 대답하며 소리쳤다. \"이제는 어차피 죄다 엉망진창인걸!\"",
-    tags: ["러시아"],
+    tags: ["러시아 문학"],
     meta: {
       title: "지하로부터의 수기",
       author: "표도르 도스토옙스키",
@@ -58,7 +58,7 @@ const TEXT_DATA = [
     category: "literature",
     textKo: "정말로 진정한 철학적 문제는 오직 하나, 그것은 바로 자살이다.",
     textEn: "Il n'y a qu'un seul problème philosophique vraiment sérieux : c'est le suicide.",
-    tags: ["프랑스"],
+    tags: ["프랑스 문학"],
     meta: {
       title: "시지프 신화",
       author: "알베르 카뮈",
@@ -68,8 +68,8 @@ const TEXT_DATA = [
   {
     id: 1006,
     category: "literature",
-    textKo: "결론인즉, 역사는 오직 정신적 승리의 타도라는 수단을 통해서만 그 목표를 찾을 수 있다. 우리는 그럴 수밖에 없는지라…….",
-    tags: ["프랑스"],
+    textKo: "결론인즉, 역사는 오직 정신적 승리의 타도라는 수단을 통해서만 그 목표를 찾을 수 있다. 우리는 그럴 수밖에 없는지라......",
+    tags: ["프랑스 문학"],
     meta: {
       title: "작가수첩II",
       author: "알베르 카뮈",
@@ -81,7 +81,7 @@ const TEXT_DATA = [
     category: "literature",
     textKo: "그 때문인지 나는 센트럴 파크의 남단에 있는 연못을 생각하고 있었다. 내가 집에 돌아갈 무렵에는 그 연못이 얼어붙어 있지나 않을까. 만일 얼어붙었다면 오리들은 어디로 갔을까.",
     textEn: "I was wondering if it would be frozen over when I got home, and if it was, where did the ducks go. I was wondering where the ducks went when the lagoon got all icy and frozen over.",
-    tags: ["미국"],
+    tags: ["미국 문학"],
     meta: {
       title: "호밀밭의 파수꾼",
       author: "제롬 데이비드 샐린저",
@@ -93,7 +93,7 @@ const TEXT_DATA = [
     category: "literature",
     textKo: "우스운 이야기다. 누구에게든 아무 말 하지 않는 것이 좋다. 말을 하면 모든 인간이 그리워지기 시작하니까.",
     textEn: "It's funny. Don't ever tell anybody anything. If you do, you start missing everybody.",
-    tags: ["미국"],
+    tags: ["미국 문학"],
     meta: {
       title: "호밀밭의 파수꾼",
       author: "제롬 데이비드 샐린저",
