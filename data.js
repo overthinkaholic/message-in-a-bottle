@@ -7,250 +7,261 @@
 const TEXT_DATA = [
   // 1. 문학 (Literature)
   {
-    id: 101,
+    id: 1001,
     category: "literature",
-    textKo: "그는 단지 자신이 존재한다는 사실만으로도 세상이 조금 더 나아졌다고 믿고 싶었다.",
-    tags: ["최인훈", "광장"],
+    textKo: "겁먹지 마시오",
+    textEn: "DON'T PANIC"
+    tags: ["SF", "영국"],
     meta: {
-      title: "광장",
-      author: "최인훈",
-      publisher: "문학과지성사"
+      title: "은하수를 여행하는 히치하이커를 위한 안내서",
+      author: "더글라스 애덤스",
+      publisher: "책세상"
     }
   },
   {
-    id: 102,
+    id: 1002,
     category: "literature",
-    textKo: "새는 알에서 나오려고 투쟁한다. 알은 세계다. 태어나려는 자는 하나의 세계를 깨뜨려야 한다.",
-    textEn: "The bird fights its way out of the egg. The egg is the world. Who would be born must first destroy a world.",
-    tags: ["헤르만 헤세", "데미안"],
+    textKo: "안녕, 그리고 물고기는 고마웠어요.",
+    textEn: "So long, and thanks for all the fish.",
+    tags: ["SF", "영국"],
     meta: {
-      title: "데미안",
-      author: "헤르만 헤세",
+      title: "은하수를 여행하는 히치하이커를 위한 안내서",
+      author: "더글라스 애덤스",
+      publisher: "책세상"
+    }
+  },
+  {
+    id: 1003,
+    category: "literature",
+    textKo: "그냥 지금 포기하고 미쳐버리면 시간이 훨씬 절약되지 않을까?",
+    textEn: "Would it save you a lot of time if I just gave up and went mad now?",
+    tags: ["SF", "영국"],
+    meta: {
+      title: "은하수를 여행하는 히치하이커를 위한 안내서",
+      author: "더글라스 애덤스",
+      publisher: "책세상"
+    }
+  },
+  {
+    id: 1004,
+    category: "literature",
+    textKo: "\"그럼 또 어때!\" 나는 혼자 이렇게 대답하며 소리쳤다. \"이제는 어차피 죄다 엉망진창인걸!\"",
+    tags: ["러시아"],
+    meta: {
+      title: "지하로부터의 수기",
+      author: "표도르 도스토옙스키",
       publisher: "민음사"
     }
   },
   {
-    id: 103,
+    id: 1005,
     category: "literature",
-    textKo: "날개야 다시 돋아라. 날자. 날자. 날자. 한 번만 더 날자꾸나. 한 번만 더 날아 보자꾸나.",
-    tags: ["이상", "날개"],
+    textKo: "정말로 진정한 철학적 문제는 오직 하나, 그것은 바로 자살이다.",
+    textEn: "Il n'y a qu'un seul problème philosophique vraiment sérieux : c'est le suicide.",
+    tags: ["프랑스"],
     meta: {
-      title: "날개",
-      author: "이상",
-      publisher: "문학과지성사"
+      title: "시지프 신화",
+      author: "알베르 카뮈",
+      publisher: "열린책들"
     }
   },
   {
-    id: 104,
+    id: 1006,
     category: "literature",
-    textKo: "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를, 잎새에 이는 바람에도 나는 괴로워했다.",
-    tags: ["윤동주", "하늘과 바람과 별과 시"],
+    textKo: "결론인즉, 역사는 오직 정신적 승리의 타도라는 수단을 통해서만 그 목표를 찾을 수 있다. 우리는 그럴 수밖에 없는지라…….",
+    tags: ["프랑스"],
     meta: {
-      title: "하늘과 바람과 별과 시",
-      author: "윤동주",
-      publisher: "정음사"
+      title: "작가수첩II",
+      author: "알베르 카뮈",
+      publisher: "책세상"
     }
   },
   {
-    id: 105,
+    id: 1007,
     category: "literature",
-    textKo: "빅 브라더가 당신을 지켜보고 있다.",
-    textEn: "Big Brother is watching you.",
-    tags: ["조지 오웰", "1984"],
+    textKo: "그 때문인지 나는 센트럴 파크의 남단에 있는 연못을 생각하고 있었다. 내가 집에 돌아갈 무렵에는 그 연못이 얼어붙어 있지나 않을까. 만일 얼어붙었다면 오리들은 어디로 갔을까.",
+    textEn: "I was wondering if it would be frozen over when I got home, and if it was, where did the ducks go. I was wondering where the ducks went when the lagoon got all icy and frozen over.",
+    tags: ["미국"],
     meta: {
-      title: "1984",
-      author: "조지 오웰",
-      publisher: "민음사"
+      title: "호밀밭의 파수꾼",
+      author: "제롬 데이비드 샐린저",
+      publisher: "문예출판사"
     }
   },
   {
-    id: 106,
+    id: 1008,
     category: "literature",
-    textKo: "인간은 파멸할지언정 패배하지는 않는다.",
-    textEn: "A man can be destroyed but not defeated.",
-    tags: ["어네스트 헤밍웨이", "노인과 바다"],
+    textKo: "우스운 이야기다. 누구에게든 아무 말 하지 않는 것이 좋다. 말을 하면 모든 인간이 그리워지기 시작하니까.",
+    textEn: "It's funny. Don't ever tell anybody anything. If you do, you start missing everybody.",
+    tags: ["미국"],
     meta: {
-      title: "노인과 바다",
-      author: "어네스트 헤밍웨이",
-      publisher: "민음사"
-    }
-  },
-  {
-    id: 107,
-    category: "literature",
-    textKo: "누군가를 사랑한다는 것은, 우리의 인생 과업 중 가장 어려운 일일 것이다.",
-    textEn: "To love is good, too: love is difficult.",
-    tags: ["라이너 마리아 릴케", "말테의 수기"],
-    meta: {
-      title: "말테의 수기",
-      author: "라이너 마리아 릴케",
-      publisher: "민음사"
+      title: "호밀밭의 파수꾼",
+      author: "제롬 데이비드 샐린저",
+      publisher: "문예출판사"
     }
   },
 
   // 2. 음악 (Music)
   {
-    id: 201,
+    id: 2001,
     category: "music",
-    textKo: "우리는 차가운 밤을 지나 함께 타오를 테니까.",
-    tags: ["실리카겔", "NO PAIN"],
+    textEn: "I'm your only friend\nI'm not your only friend\nBut I'm a little glowing friend\nBut really I'm not actually your friend\nBut I am",
+    tags: ["They Might Be Giants"],
     meta: {
-      title: "NO PAIN",
-      album: "NO PAIN",
-      artist: "실리카겔",
-      year: 2022
+      title: "Birdhouse in Your Soul",
+      album: "Flood",
+      artist: "They Might Be Giants",
+      year: 1989
     }
   },
   {
-    id: 202,
+    id: 2002,
     category: "music",
-    textKo: "언젠가 세상은 영화가 끝나듯 멈추겠지만, 내 마음의 사랑은 결코 끝나지 않으리.",
-    tags: ["신해철", "민물장어의 꿈"],
+    textEn: "Make a little birdhouse in your soul",
+    tags: ["They Might Be Giants"],
     meta: {
-      title: "민물장어의 꿈",
-      album: "락 & 樂",
-      artist: "신해철",
-      year: 1999
+      title: "Birdhouse in Your Soul",
+      album: "Flood",
+      artist: "They Might Be Giants",
+      year: 1989
     }
   },
   {
-    id: 203,
+    id: 2003,
     category: "music",
-    textKo: "너의 목소리가 들려. 아무리 애를 쓰고 막아보려 해도 너의 목소리가 들려.",
-    tags: ["델리스파이스", "차우차우"],
+    textEn: "Make a hole with a gun perpendicular\nTo the name of this town in a desktop globe",
+    tags: ["They Might Be Giants"],
     meta: {
-      title: "차우차우",
-      album: "Deli Spice",
-      artist: "델리스파이스",
-      year: 1997
+      title: "Ana Ng",
+      album: "Lincoln",
+      artist: "They Might Be Giants",
+      year: 1988
     }
   },
   {
-    id: 204,
+    id: 2004,
     category: "music",
-    textKo: "언젠간 가겠지 푸르른 이 청춘, 지고 또 피는 꽃잎처럼.",
-    tags: ["산울림", "청춘"],
+    textEn: "And her voice is a backwards record\nIt's like a whirlpool and it never ends",
+    tags: ["They Might Be Giants"],
     meta: {
-      title: "청춘",
-      album: "산울림 7집",
-      artist: "산울림",
-      year: 1981
+      title: "Ana Ng",
+      album: "Lincoln",
+      artist: "They Might Be Giants",
+      year: 1988
     }
   },
   {
-    id: 205,
+    id: 2005,
     category: "music",
-    textKo: "분노한 채 과거를 뒤돌아보지 말라고, 네가 말하는 걸 들었어.",
-    textEn: "Don't look back in anger, I heard you say.",
-    tags: ["Oasis", "Don't Look Back In Anger"],
+    textEn: "Ana Ng and I are getting old\nAnd we still haven't walked\nIn the glow of each other's majestic presence",
+    tags: ["They Might Be Giants"],
     meta: {
-      title: "Don't Look Back In Anger",
-      album: "(What's the Story) Morning Glory?",
-      artist: "Oasis",
-      year: 1995
+      title: "Ana Ng",
+      album: "Lincoln",
+      artist: "They Might Be Giants",
+      year: 1988
     }
   },
   {
-    id: 206,
+    id: 2006,
     category: "music",
-    textKo: "우리는 챔피언이야, 친구들. 그리고 끝까지 계속 싸워나갈 거야.",
-    textEn: "We are the champions, my friends, and we'll keep on fighting till the end.",
-    tags: ["Queen", "We Are The Champions"],
+    textEn: "In the gallows or the ghetto\nIn the town or the meadow\nIn the billows even over the sun\nEvery end of the time is another begun",
+    tags: ["Tally Hall"],
     meta: {
-      title: "We Are The Champions",
-      album: "News of the World",
-      artist: "Queen",
-      year: 1977
+      title: "Ruler of Everything",
+      album: "Marvin's Marvelous Mechanical Museum",
+      artist: "Tally Hall",
+      year: 2005
     }
   },
   {
-    id: 207,
+    id: 2007,
     category: "music",
-    textKo: "주저하는 연인들을 위해, 아름다운 기억만을 남겨두고 싶어.",
-    tags: ["잔나비", "주저하는 연인들을 위해"],
+    textEn: "Everybody likes to get taken for turns\nTo see how bright the fire inside of us burns\nAnd everybody wants to get evil tonight\nBut all good devils masquerade under the light",
+    tags: ["Tally Hall"],
     meta: {
-      title: "주저하는 연인들을 위해",
-      album: "전설",
-      artist: "잔나비",
-      year: 2019
+      title: "Turn the Lights Off",
+      album: "Good & Evil",
+      artist: "Tally Hall",
+      year: 2011
     }
   },
 
   // 3. 게임 (Game)
   {
-    id: 301,
+    id: 3001,
     category: "game",
-    textKo: "바람이 불고 있다... 살아야겠다.",
-    tags: ["젤다의 전설"],
+    textKo: "그 모든 일이 있었음에도, 여전히 당신이다.",
+    textEn: "Despite everything, it's still you.",
+    tags: ["Undertale"],
     meta: {
-      title: "젤다의 전설 브레스 오브 더 와일드",
-      year: 2017
-    }
-  },
-  {
-    id: 302,
-    category: "game",
-    textKo: "나도 전에는 너처럼 모험가였지, 무릎에 화살을 맞기 전까지는 말이야.",
-    textEn: "I used to be an adventurer like you, then I took an arrow in the knee.",
-    tags: ["스카이림"],
-    meta: {
-      title: "엘더스크롤 V: 스카이림",
-      year: 2011
-    }
-  },
-  {
-    id: 303,
-    category: "game",
-    textKo: "케이크는 거짓말이야.",
-    textEn: "The cake is a lie.",
-    tags: ["포탈"],
-    meta: {
-      title: "포탈 (Portal)",
-      year: 2007
-    }
-  },
-  {
-    id: 304,
-    category: "game",
-    textKo: "태양 만세!",
-    textEn: "Praise the Sun!",
-    tags: ["다크 소울"],
-    meta: {
-      title: "다크 소울 (Dark Souls)",
-      year: 2011
-    }
-  },
-  {
-    id: 305,
-    category: "game",
-    textKo: "마음 속에 굳은 의지가 가득해졌다.",
-    textEn: "You are filled with determination.",
-    tags: ["언더테일"],
-    meta: {
-      title: "언더테일 (Undertale)",
+      title: "언더테일",
       year: 2015
     }
   },
   {
-    id: 306,
+    id: 3002,
     category: "game",
-    textKo: "전쟁... 전쟁은 변하지 않는다.",
-    textEn: "War... war never changes.",
-    tags: ["폴아웃"],
+    textKo: "너는 의지로 가득 찼다.",
+    textEn: "You are filled with DETERMINATION.",
+    tags: ["Undertale"],
     meta: {
-      title: "폴아웃 (Fallout)",
-      year: 1997
+      title: "언더테일",
+      year: 2015
     }
   },
   {
-    id: 307,
+    id: 3003,
     category: "game",
-    textKo: "인간을 심판하는 것은 인간의 법률이지만, 나를 인도하는 것은 나의 소명이다.",
-    textEn: "It is the laws of men that judge, but it is my duty that guides.",
-    tags: ["어쌔신 크리드"],
+    textKo: "누구나 노력만 하면 훌륭한 사람이 될 수 있어!",
+    textEn: "EVERYONE CAN BE A GREAT PERSON IF THEY TRY!",
+    tags: ["Undertale"],
     meta: {
-      title: "어쌔신 크리드 2",
-      year: 2009
+      title: "언더테일",
+      year: 2015
+    }
+  },
+  {
+    id: 3004,
+    category: "game",
+    textKo: "난 더 나아지고 싶은 게 아냐. 더 나빠졌으면 좋겠어.",
+    textEn: "\"I don't want to get better, I want to get worse,\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  },
+  {
+    id: 3005,
+    category: "game",
+    textKo: "\"모든 사상과 정치체제가 이 도시에선 실패했지만, 그럼에도 전 이 도시를 사랑합니다. 최소한 당신이 그런 만큼은 말입니다.\"",
+    textEn: "\"Every school of thought and government has failed in this city — but I love it nonetheless. It belongs to me as much as it belongs to you.\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  },
+  {
+    id: 3006,
+    category: "game",
+    textKo: "\"그럼 우린 대체 뭘 하고 있는 거지? 모든 걸 현상 유지만 하면서 말이야.\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  },
+  {
+    id: 3007,
+    category: "game",
+    textKo: "[사람들은 아름답습니다. 마치 조각상처럼. 그들 스스로가 자신의 패러디이자 비극입니다. 피조물의 민주적 군상이지요...]",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
     }
   }
+
 ];
