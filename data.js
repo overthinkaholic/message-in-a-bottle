@@ -241,6 +241,116 @@ const TEXT_DATA = [
       publisher: "책세상"
     }
   },
+  {
+    id: 1021,
+    category: "literature",
+    textKo: "신세계의 가치를 아는 자들에게\n예언과 더불어 이것들을 던져 버렸나니\n각 세대는 소멸하는 몽상이요\n한 사람은 새로운 탄생이기 때문이니라.",
+    tags: ["미국"],
+    meta: {
+      title: "죽은 시인의 사회",
+      author: "N. H. 클라인바움",
+      publisher: "서교출판사"
+    }
+  },
+  {
+    id: 1022,
+    category: "literature",
+    textKo: "문제의 핵심이, 그러니까 가장 지저분한 것이 뭐냐 하면, 나란 놈은 심술궂은 인간도 아닐뿐더러 심지어 악에 받친 인간도 아니라는 사실을, 그저 괜스레 참새들이나 놀래는 주제에 그걸 자기 위안거리로 삼는 인간이라는 사실을 시시각각, 심지어 울화통이 터져 미칠 것 같은 순간에도 속으로 수치스럽게 의식하고 있었다는 점이다.",
+    tags: ["러시아"],
+    meta: {
+      title: "지하로부터의 수기",
+      author: "표트르 도스토옙스키",
+      publisher: "민음사"
+    }
+  },
+  {
+    id: 1023,
+    category: "literature",
+    textKo: "오만한 말이여, 너는 어디로 달려가느냐,\n어디에 네 발굽 내려놓으려느냐?\n오 강대한 운명의 지배자여!",
+    tags: ["러시아"],
+    meta: {
+      title: "청동 기마상",
+      author: "알렉산드르 푸쉬킨",
+      publisher: "불명"
+    }
+  },
+  {
+    id: 1024,
+    category: "literature",
+    textKo: "6동 1호에 기이하고 특이한 사람들만 모인 것인지, 보통 사람들이 이곳에 들어오면서 특이해진 것인지 그는 알 수 없었다.",
+    tags: ["러시아"],
+    meta: {
+      title: "삶과 운명",
+      author: "바실리 그로스만",
+      publisher: "창비"
+    }
+  },
+  {
+    id: 1025,
+    category: "literature",
+    textKo: "\"병사가 술을 진탕 마셨다, 그러고 끝. 늙은이의 할망구가 죽었다, 정확한 묘사지. 정말 웃기고, 불쌍하고, 흥미롭고, 요컨대 인간이 무엇을 위해 사는지 알 수 없다는 거야.\"",
+    tags: ["러시아"],
+    meta: {
+      title: "삶과 운명",
+      author: "바실리 그로스만",
+      publisher: "창비"
+    }
+  },
+  {
+    id: 1026,
+    category: "literature",
+    textKo: "옐레나 안드레예브나: 오늘은 날씨가 참 좋군요...... 덥지도 않고......\n(사이)\n보이니쯔끼: 이런 날씨에는 목을 매달기도 좋지요......",
+    tags: ["러시아"],
+    meta: {
+      title: "바냐 아저씨",
+      author: "안톤 체호프",
+      publisher: "불명"
+    }
+  },
+  {
+    id: 1027,
+    category: "literature",
+    textKo: "\"이건 희한한데, 뭐가 이보다도 더 위대한 것이 있겠는가?\"\n\"자유가 있다.\" 하고 콩브페르가 말했다.\n이번에는 마리우스가 고개를 수그렸다. 이 단순하고 쌀쌀한 말은 강철 칼날처럼 그의 서사시적 격정의 토로를 꿰뚫었고, 그는 그 격정이 가슴속에서 스러지는 것을 느꼈다.",
+    tags: ["프랑스"],
+    meta: {
+      title: "레 미제라블",
+      author: "빅토르 위고",
+      publisher: "민음사"
+    }
+  },
+  {
+    id: 1028,
+    category: "literature",
+    textKo: "혁명의 논리와 그 철학 사이에는 다음과 같은 차이가 있다. 즉 혁명의 논리는 필연적으로 전쟁에 도달할 수 있는 반면, 그 철학은 평화에만 귀착할 수 있다는 것.",
+    tags: ["프랑스"],
+    meta: {
+      title: "레 미제라블",
+      author: "빅토르 위고",
+      publisher: "민음사"
+    }
+  },
+  {
+    id: 1029,
+    category: "literature",
+    textKo: "이에 따르면, 전 우주의 인구 역시 영이라는 결론이 도출된다. 따라서 당신이 때때로 마주치는 사람들은 혼란에 빠진 상상력의 산물에 불과하다.",
+    tags: ["SF", "영국"],
+    meta: {
+      title: "은하수를 여행하는 히치하이커를 위한 안내서",
+      author: "더글라스 애덤스",
+      publisher: "책세상"
+    }
+  },
+  {
+    id: 1030,
+    category: "literature",
+    textKo: "\"당신들은 모두 미쳤어.\" 포드 프리펙트가 설명했다.\n\"당신들은 완전히 돌았어.\" 그가 시사했다.\n\"당신들은 집단으로 돌았어.\" 그가 의견을 피력했다.",
+    tags: ["SF", "영국"],
+    meta: {
+      title: "은하수를 여행하는 히치하이커를 위한 안내서",
+      author: "더글라스 애덤스",
+      publisher: "책세상"
+    }
+  },
 
   // 2. 음악 (Music)
   {
@@ -722,14 +832,38 @@ const TEXT_DATA = [
       artist: "David Bowie",
       year: 1969
     }
-  },
+  }, 
+  {
+    id: 2041,
+    category: "music",
+    textEn: "It's such a burden to carry 'round\nThe vestiges of dead dreams",
+    tags: ["of Montreal"],
+    meta: {
+      title: "Requiem for O.M.M.2",
+      album: "The Sunlandic Twins",
+      artist: "Of Montreal",
+      year: 2005
+    }
+  }, 
+  {
+    id: 2042,
+    category: "music",
+    textEn: "My mind rejects the frequency\nIt's static craziness to me\nIs it a solar fever?",
+    tags: ["of Montreal"],
+    meta: {
+      title: "A Sentence Of Sorts In Kongsvinger",
+      album: "Hissing Fauna, Are You the Destroyer?",
+      artist: "Of Montreal",
+      year: 2007
+    }
+  }, 
 
   // 3. 게임 (Game)
   {
     id: 3001,
     category: "game",
-    textKo: "그 모든 일이 있었음에도, 여전히 당신이다.",
-    textEn: "Despite everything, it's still you.",
+    textKo: "* 그 모든 일이 있었음에도, 여전히 당신이다.",
+    textEn: "* Despite everything, it's still you.",
     tags: ["Undertale"],
     meta: {
       title: "언더테일",
@@ -739,8 +873,8 @@ const TEXT_DATA = [
   {
     id: 3002,
     category: "game",
-    textKo: "너는 의지로 가득 찼다.",
-    textEn: "You are filled with DETERMINATION.",
+    textKo: "* 너는 의지로 가득 찼다.",
+    textEn: "* You are filled with DETERMINATION.",
     tags: ["Undertale"],
     meta: {
       title: "언더테일",
@@ -828,6 +962,221 @@ const TEXT_DATA = [
     meta: {
       title: "디스코 엘리시움",
       year: 2019
+    }
+  }, 
+  {
+    id: 3011,
+    category: "game",
+    textKo: "\"그건 경무사님의 뇌가 이데올로기에서 부유하고 있기 때문이에요. 사실상 익사하고 있죠...\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3012,
+    category: "game",
+    textKo: "\"당신이 주사위를 던질 때마다 무언가 사라지는 거예요. 다른 결말이라든가, 전혀 다른 세상이 없어지는 거죠...",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3013,
+    category: "game",
+    textKo: "이 친구가 곧 지옥의 기관이야. 절대로 멈추지 않지. 단지 계속해서 나빠지기만 할 뿐이라고.",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3014,
+    category: "game",
+    textKo: "\"그렇다면 알려드리지 않기로 했던 제 선택이 옳았군요, 그렇죠?\" 경위는 엷은 미소를 짓는다. \"어쨌든, 창백은 그렇게 무서운 것도 아니지요. 가령, 바다나 죽음, 우리가 자기 눈 뒤에서 영생을 갇혀 산다는 사실에 비하면...\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3015,
+    category: "game",
+    textKo: "\"그게 바로 이데올로기예요. 마치 보이지 않는 힘이 어디에나 존재하고, 경무사님을 이리로 저리로 밀고 당기는데, 경무사님은 그게 *있는* 줄도 모르는 거죠.\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3016,
+    category: "game",
+    textKo: "[불꽃이 렌즈에 반사되자 그의 안경은 금빛으로 물든다. 당신은 다시 한번 확신으로 가득 찬다. 이 남자는 나의 형제다.]",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3017,
+    category: "game",
+    textKo: "진정한 사랑은 가능하다\n오직 다음 세상의, 신세대들에게서\n우리에게는 너무 늦었다\n.\n중산층을 무너뜨려라",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3018,
+    category: "game",
+    textKo: "[오늘의 일시적인 위안물들: 나뉘피는 담배, 거친 농담. 상처 주기 전에 나누는 오늘의 포옹.]",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3019,
+    category: "game",
+    textKo: "\"포옹 대마왕이요? 그 두 단어가 어떻게 하나가 될 수 있죠?\"\n\"글쎄요, 사실 우리에겐 다른 사람의 몸을 마음대로 할 권리가 없잖아요. 그러니 남을 포옹하는 것도 정말 괴물 같은 일이라고 불릴 만하죠.\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3020,
+    category: "game",
+    textKo: "[당신은 괴짜처럼 무생물을 향해 소리치고 있다. 정답을 맞히는 데 문제가 있는 것도 당연하다.]",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3021,
+    category: "game",
+    textKo: "[태양은 망자에게 아무것도 해 주지 않아, 정신을 놓아버린 가망 없는 사람들에게도 마찬가지지.]",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3022,
+    category: "game",
+    textKo: "\"나아가자, 저 거친 창백 너머로.\"",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3023,
+    category: "game",
+    textKo: "그 무엇도 날 치유해줄 순 없겠지만, 그래도 웃기는 넥타이 하나는 건졌군.",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3024,
+    category: "game",
+    textKo: "넌 현대 과학의 속박에서 벗어나, *외계* 문화로부터 기원한 초감각적 지식의 회랑에 입성했다.",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3025,
+    category: "game",
+    textKo: "이미 삭고 부어버린 얼굴은 앞으로 평생을 가겠지만, 당신에게는 살아갈 나날들이 있습니다. 아직 희망은 있습니다.",
+    tags: ["Disco Elysium"],
+    meta: {
+      title: "디스코 엘리시움",
+      year: 2019
+    }
+  }, 
+  {
+    id: 3026,
+    category: "game",
+    textKo: "나에겐 이행해야 할 신성한 임무가 있다. 난 세계를 정화해야 한다.",
+    textEn: "J'ai une mission sacrée à mener à bien. Je dois puripier le monde.",
+    tags: ["OFF"],
+    meta: {
+      title: "OFF",
+      year: 2008
+    }
+  },
+  {
+    id: 3027,
+    category: "game",
+    textKo: "\"멋진 경치야. 너도 그렇게 생각하지? 이게 단지 비디오 게임이라는 사실을 잊게 해준다니까.\"",
+    tags: ["OFF"],
+    meta: {
+      title: "OFF",
+      year: 2008
+    }
+  },
+  {
+    id: 3028,
+    category: "game",
+    textKo: "* 별이란 게 뭐야?\n* 만질 수 있는 거야?\n* 먹을 수 있는 거야?\n* 죽일 수 있는 거야?\n* ...\n* 혹시 네가 별이야?",
+    textEn: "* What is a star?\n* Can you touch it?\n* Can you eat it?\n* Can you kill it?\n* ...\n* Are you a star?",
+    tags: ["Undertale"],
+    meta: {
+      title: "언더테일",
+      year: 2015
+    }
+  },
+  {
+    id: 3029,
+    category: "game",
+    textKo: "* 이 지옥같은 세상에서는, 단 3개의 사탕만이 허락되는 법이다...",
+    textEn: "* In this hellish world, you can only take 3 pieces of candy...",
+    tags: ["Undertale"],
+    meta: {
+      title: "언더테일",
+      year: 2015
+    }
+  },
+  {
+    id: 3030,
+    category: "game",
+    textKo: "* 난 19살인데 벌써 내 모든 인생을 낭비했어.",
+    textEn: "* I'm 19 years old and I've already wasted my entire life.",
+    tags: ["Undertale"],
+    meta: {
+      title: "언더테일",
+      year: 2015
+    }
+  },
+  {
+    id: 3031,
+    category: "game",
+    textKo: "* 네!? 대학에 가요?\n* 왜... 왜 그런 짓을 했대요!?",
+    textEn: "* What!? He went to COLLEGE? \n* Well... why'd he have to go do THAT!?",
+    tags: ["Deltarune"],
+    meta: {
+      title: "델타룬",
+      year: 2025
     }
   }
 
