@@ -534,7 +534,7 @@ const TEXT_DATA = [
   {
     id: 2025,
     category: "music",
-    textEn: "Now I laugh and make a fortune\nOff the same ones that I tortured\nAnd a world screams, "Kiss me, Son of God",
+    textEn: "Now I laugh and make a fortune\nOff the same ones that I tortured\nAnd a world screams, \"Kiss me, Son of God\"",
     tags: ["They Might Be Giants"],
     meta: {
       title: "Kiss Me, Son Of God",
