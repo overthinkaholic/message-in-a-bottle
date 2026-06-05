@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message In A Bottle...</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="문학, 음악, 게임의 멋진 문장들을 무작위로 추출하고 감상할 수 있는 레트로 스타일 생성기입니다.">
+  
+  <!-- Google Fonts for Retro Pixel Aesthetics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=JetBrains+Mono:wght@400;700&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="retro-theme">
+  <!-- CRT Screen Effect Layer -->
+  <div class="crt-overlay"></div>
+  
+  <div class="app-container">
+    <!-- Header -->
+    <header class="retro-header">
+      <h1 class="logo-title" id="app-title">MESSAGE IN A BOTTLE...</h1>
+      <p class="logo-subtitle">RANDOM QUOTE GENERATOR</p>
+      <div class="header-divider"></div>
+    </header>
+
+    <main class="retro-main">
+      <!-- Filter Control Board -->
+      <section class="control-board" aria-labelledby="filter-heading">
+        <h2 id="filter-heading" class="section-title">> SELECT CATEGORY</h2>
+        
+        <!-- Category Tab Buttons -->
+        <div class="category-tabs" id="category-tabs" role="tablist">
+          <button class="tab-btn active" id="tab-all" data-category="all" role="tab" aria-selected="true">> ALL</button>
+          <button class="tab-btn" id="tab-literature" data-category="literature" role="tab" aria-selected="false">> LIT</button>
+          <button class="tab-btn" id="tab-music" data-category="music" role="tab" aria-selected="false">> MUSIC</button>
+          <button class="tab-btn" id="tab-game" data-category="game" role="tab" aria-selected="false">> GAME</button>
+        </div>
+
+        <div class="tags-section">
+          <div class="tags-header">
+            <h3 class="section-subtitle">> FILTER BY TAGS</h3>
+            <button class="reset-tags-btn" id="btn-reset-tags" title="선택 해제">RESET</button>
+          </div>
+          <!-- Dynamic Tag Chips List -->
+          <div class="tags-container" id="tags-container">
+            <!-- Dynamic tags will be generated here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Generator Terminal (Display Area) -->
+      <section class="terminal-board" aria-labelledby="display-heading">
+        <h2 id="display-heading" class="visually-hidden">Quote Display</h2>
+        
+        <!-- Output Terminal Window -->
+        <div class="terminal-window" id="quote-card">
+          <!-- Window Header (Retro Title Bar) -->
+          <div class="window-titlebar">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title" id="quote-category">SYSTEM</span>
+            <span class="window-status" id="quote-count-badge">POOL: 21</span>
+          </div>
+          
+          <!-- Window Contents -->
+          <div class="window-body">
+            <div class="quote-text-container" id="quote-text-container">
+              <div class="quote-line">
+                <span class="terminal-cursor">> </span>
+                <blockquote class="quote-text">
+                  버튼을 클릭하여 유리병 속에 담긴 문학, 음악, 게임의 한 구절을 건져 올려보세요.
+                </blockquote>
+              </div>
+            </div>
+            
+            <!-- Metadata Area (Updates depending on Category) -->
+            <div class="quote-meta-container" id="quote-meta">
+              <span class="meta-label">[INFO]</span>
+              <span class="meta-content" id="quote-meta-text">시스템 준비 완료.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Control Buttons -->
+        <div class="action-controls">
+          <!-- Copy to Clipboard Button -->
+          <button class="retro-btn secondary-btn" id="btn-copy" aria-label="클립보드에 복사">
+            <span class="btn-icon">📋</span> COPY
+          </button>
+          
+          <!-- Large Generate Button -->
+          <button class="retro-btn primary-btn" id="btn-generate">
+            GENERATE_
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="retro-footer">
+      <div class="footer-divider"></div>
+      <p class="copyright">IN A BOTTLE V1.0.0 // BY ANTIGRAVITY</p>
+      <p class="footer-hint">Open dev console to check data structures or add your own.</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="alert" aria-live="polite">
+    COPIED TO CLIPBOARD!
+  </div>
+
+  <!-- Load Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
