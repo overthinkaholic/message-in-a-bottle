@@ -193,11 +193,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const { meta } = quote;
     
     if (quote.category === 'literature') {
-      metaText = `《${meta.title}》 | 작가: ${meta.author} | 출판사: ${meta.publisher}`;
+      metaText = `《${meta.title}》 | ${meta.author} | ${meta.publisher}`;
     } else if (quote.category === 'music') {
-      metaText = `곡명: ${meta.title} | 앨범: ${meta.album} | 아티스트: ${meta.artist} (${meta.year}년 발매)`;
+      metaText = `〈${meta.title}〉 | 《${meta.album}》 (${meta.year}) | ${meta.artist}`;
     } else if (quote.category === 'game') {
-      metaText = `게임명: ${meta.title} (${meta.year}년 출시)`;
+      metaText = `《${meta.title}》 (${meta.year})`;
     }
 
     quoteMetaText.textContent = metaText;
@@ -240,19 +240,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let copyString = '';
     if (currentQuote.textEn && currentQuote.textKo) {
-      copyString = `"${currentQuote.textEn}"\n"${currentQuote.textKo}"\n`;
+      copyString = `${currentQuote.textEn}\n${currentQuote.textKo}\n`;
     } else {
-      copyString = `"${currentQuote.textKo || currentQuote.textEn || currentQuote.text}"\n`;
+      copyString = `${currentQuote.textKo || currentQuote.textEn || currentQuote.text}\n`;
     }
     
     const { meta } = currentQuote;
     
     if (currentQuote.category === 'literature') {
-      copyString += `- 문학: 《${meta.title}》 (${meta.author} 저, ${meta.publisher})`;
+      copyString += `- 《${meta.title}》 (${meta.author} 저, ${meta.publisher})`;
     } else if (currentQuote.category === 'music') {
-      copyString += `- 음악: "${meta.title}" (아티스트: ${meta.artist}, 앨범: ${meta.album}, ${meta.year}년)`;
+      copyString += `- 〈${meta.title}〉 (${meta.artist}, 《${meta.album}》 中, ${meta.year})`;
     } else if (currentQuote.category === 'game') {
-      copyString += `- 게임: 《${meta.title}》 (${meta.year}년 출시)`;
+      copyString += `- 《${meta.title}》 (${meta.year})`;
     }
 
     // 클립보드에 쓰기
